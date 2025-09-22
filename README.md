@@ -1,2 +1,3 @@
-# medical_ai_safety
-ai safety discussion
+## Enhancing Transparency and Safety in Medical AI through Model Calibration and Uncertainty decision Modeling
+
+
