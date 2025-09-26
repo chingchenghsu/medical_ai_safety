@@ -9,14 +9,15 @@ This project aims to investigate methods for improving the safety, transparency,
 # Project Structure 
 
 medical_ai_safety/
-│── data/                # Sample training & test data  
+│── data/                # Sample training & test data
 │── notebooks/           # Jupyter notebooks for exploration & experiments
 │── src/                 
-│   ├── models/          # Current no file
-│   ├── pipelines/       # Current no file
-│   └── monitoring/      # Current no file 
+│   ├── models/          # Deep learning models
+│   ├── pipelines/       # Preprocessing & defect detection pipeline
+│   └── monitoring/      # Drift detection & SPC modules
 │── tests/               # Unit and integration tests
 │── requirements.txt     # Python dependencies
 │── README.md            # Project description
 │── LICENSE              # License file
+
 
