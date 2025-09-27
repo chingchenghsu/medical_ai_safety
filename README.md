@@ -6,75 +6,42 @@ This project aims to investigate methods for improving the safety, transparency,
 ![image](decision_medical.png)
 
 
-# 🚀 GPU Defect Detection System
+# 🚀 
 
-An AI-powered system for detecting defects in GPU manufacturing using computer vision and Bayesian drift detection. The project integrates deep learning models with Statistical Process Control (SPC) methods to ensure high-quality production and proactive anomaly detection.
-
----
-
-## 📌 Features
-- 🔍 Automated defect detection from high-resolution GPU wafer images
-- 📊 Intelligent SPC analysis with Bayesian drift detection
-- ⚡ Fast inference with PyTorch and ONNX Runtime
-- 📡 Real-time alert system integrated with email/Slack
-- 🛠 Modular design for easy extension to other manufacturing processes
 
 ---
 
 ## 📂 Project Structure
 ```
-gpu-defect-detection/
-│── data/                # Sample training & test data
+medical_ai_safety/
+│── data/                # Sample training & test data. data is from https://archive.ics.uci.edu/dataset/45/heart%2Bdisease
 │── notebooks/           # Jupyter notebooks for exploration & experiments
 │── src/                 
-│   ├── models/          # Deep learning models
-│   ├── pipelines/       # Preprocessing & defect detection pipeline
+│   ├── models/          # model folder 
+│   ├── pipelines/       # Preprocessing pipeline
 │   └── monitoring/      # Drift detection & SPC modules
-│── tests/               # Unit and integration tests
+│── lecture/             # Lecture folder for explaining the rationale and methods 
 │── requirements.txt     # Python dependencies
 │── README.md            # Project description
-│── LICENSE              # License file
+│── LICENSE              
 ```
 
 ---
 
 ## ⚙️ Installation
 ```bash
-git clone https://github.com/your-username/gpu-defect-detection.git
-cd gpu-defect-detection
+git clone https://github.com/chingchenghsu/medical_ai_safety
+cd medical_ai_safety
 pip install -r requirements.txt
 ```
 
 ---
 
 ## 🚦 Usage
-1. Prepare your dataset in the `data/` folder  
-2. Train the defect detection model:  
-   ```bash
-   python src/train.py --config configs/train.yaml
-   ```  
-3. Run inference on test images:  
-   ```bash
-   python src/infer.py --input data/test/
-   ```  
-4. Start drift detection monitoring:  
-   ```bash
-   python src/monitoring/drift_detect.py
+1. Please look at the jupyter notebook.
+
    ```
 
----
-
-## 📊 Example Results
-- Defect classification accuracy: **96.3%**
-- Bayesian drift detection reduced false alarms by **40%**
-- Real-time alerts delivered within **3 seconds**
-
----
-
-## 🤝 Contributing
-Pull requests are welcome! For major changes, please open an issue first to discuss your ideas.
-
----
 
 ## 📜 License
 This project is licensed under the MIT License.
